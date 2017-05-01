@@ -90,8 +90,11 @@ export default class App extends Component {
               <LinkContainer to="/pagination">
                 <NavItem eventKey={4}>Pagination</NavItem>
               </LinkContainer>
+              <LinkContainer to="/weather">
+                <NavItem eventKey={5}>Weather</NavItem>
+              </LinkContainer>
               <LinkContainer to="/about">
-                <NavItem eventKey={5}>About Us</NavItem>
+                <NavItem eventKey={6}>About Us</NavItem>
               </LinkContainer>
 
               {!user &&
